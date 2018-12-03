@@ -1,0 +1,40 @@
+@import '../../common/variables.sass'
+
+.main
+  display: flex
+  align-items: center
+  .main-container
+    margin: 0 auto
+    width: 80%
+    text-align: center
+    .name
+      color: $pink
+      font-family: $fontComfortaa
+      font-size: 5rem
+    .job-title
+      color: $black
+      font-family: $fontRighteous
+      font-size: 2rem
+    .social-links
+      color: $gray
+      display: flex
+      font-family: $fontComfortaa
+      justify-content: center
+      li
+        display: flex
+        align-items: center
+        margin: 1rem 3rem
+        span
+          margin: 0.5rem
+          &.fab, &.far
+            font-size: 2em
+            &.fa-twitter
+              color: #51aede
+            &.fa-linkedin
+              color: #327aac
+            &.fa-github
+              color: #222
+            &.fa-file-pdf
+              color: #a4302f
+
+

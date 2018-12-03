@@ -1,0 +1,65 @@
+@import '../../common/variables.sass'
+.skills
+  display: flex
+  align-items: center
+  justify-content: space-evenly
+  .section-title
+    display: inline-block
+    width: 100%
+    font-family: $fontPoppins
+    color: $pink
+    font-size: 2rem 
+
+
+  .container-skills
+    display: flex
+    flex-wrap: wrap
+    width: 80%
+    margin: 0 auto
+    .skill
+      display: flex
+      align-items: center
+      justify-content: left
+      flex-wrap: wrap
+      padding: 20px
+      width: 50%
+      .fab, .fas
+        width: 10%
+        display: inline-block
+        height: 50px
+        margin: 10px
+        width: 50px
+        font-size: 3rem
+        text-align: center
+        &.fa-html5
+          color: #d1563a
+        &.fa-css3-alt
+          color: #327cba
+        &.fa-js
+          color: #f4d751
+        &.fa-react
+          color: #7dbae4
+        &.fa-database
+          color: #f0c347
+        &.fa-node-js
+          color: #98c536
+        &.fa-vuejs
+          color: #66ad7f
+      .skillname
+        font-family: $fontRighteous
+        width: 40%
+      .skillpercentage
+        font-family: $fontComfortaa
+      .progress-bar
+        @include boxShadow()
+        background: #efefef
+        border-radius: 30px
+        display: block
+        height: 10px
+        overflow: hidden
+        width: 100%
+        span
+          @include degrade()
+          border-radius: 30px
+          display: block
+          height: 100%

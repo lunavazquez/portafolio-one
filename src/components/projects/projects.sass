@@ -1,0 +1,67 @@
+@import '../../common/variables.sass'
+.projects
+  display: flex
+  align-content: center
+  justify-items: center
+  flex-wrap: wrap
+  text-align: center
+  .section-title
+    font-size: 2rem
+    color: $pink
+    font-family: $fontPoppins
+    display: block
+    width: 100%
+    margin-bottom: 3rem
+  .project-container
+    height: 300px
+    overflow: hidden
+    text-align: center
+    display: flex
+    justify-content: center
+    flex-wrap: wrap
+    margin: 0 auto
+    width: 80%
+    .project
+      border: 1px solid $gray
+      border-radius: 400px
+      height: 250px
+      margin: 0 1.5%
+      overflow: hidden
+      text-align: center
+      width: 30%
+      font-size: 2rem
+      line-height: 250px
+      font-family: $fontRighteous
+      color: transparent
+      @include boxShadow()
+      @include transitionEaseOut($moderateSpeed)
+      &.cipher
+        background: url('./images/cesar-cipher.png')
+        background-position-y: center
+        background-position-x: center
+        background-repeat: no-repeat
+        background-size: cover
+      &.dashboard
+        background: url('./images/data-dashboard.png')
+        background-position-y: center
+        background-position-x: center
+        background-repeat: no-repeat
+        background-size: cover
+      &.movies
+        background: url('./images/api-movies.png')
+        background-position-y: center
+        background-position-x: center
+        background-repeat: no-repeat
+        background-size: cover
+      &:hover
+        background: $black
+        color: $gray
+        background-position-y: center
+        background-position-x: center
+        background-repeat: no-repeat
+        background-size: cover
+    .git-repo
+      width: 33%
+      color: $pink
+      text-decoration: underline
+      font-family: $fontPoppins

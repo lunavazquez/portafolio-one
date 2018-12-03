@@ -1,0 +1,18 @@
+@import '../../common/variables.sass'
+.bullets
+  position: fixed
+  height: 100px
+  right: 0
+  top: calc(50% - 50px)
+  margin: 10px
+  .bullet
+    @include boxShadow()
+    cursor: pointer
+    display: block
+    border-radius: 30px
+    width: 15px
+    height: 15px
+    margin: 10px
+    background: $gray
+    &.active
+      background: $black
