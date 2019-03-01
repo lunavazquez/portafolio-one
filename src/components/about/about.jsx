@@ -14,8 +14,8 @@ export default () => {
         me encanta crear cosas nuevas y colaborar en
         nuevos proyectos de programación.
         Autodidacta y abierta al nuevo conocimiento,
-        me gusta tener retos en mi vida para
-        mantenerme actualizada.</p>
+        me gusta tener retos en profesionales para
+        mantenerme actualizada en el mercado laboral.</p>
       </div>
     </div>
   );
