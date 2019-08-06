@@ -1,5 +1,5 @@
-import React from 'react';
-import './main.sass';
+import React from "react";
+import "./main.sass";
 
 export default () => {
   return (
@@ -10,25 +10,25 @@ export default () => {
         <ul className="social-links">
           <li>
             <a href="https://github.com/lunavazquez">
-              <span className="fab fa-github"></span>
+              <span className="fab fa-github" />
               <span>@lunavazquez</span>
             </a>
           </li>
           <li>
             <a href="https://www.linkedin.com/in/mextlivazquez/">
-              <span className="fab fa-linkedin"></span>
+              <span className="fab fa-linkedin" />
               <span>@mextlivazquez</span>
             </a>
           </li>
           <li>
             <a href="https://twitter.com/luna_vazq">
-              <span className="fab fa-twitter"></span>
+              <span className="fab fa-twitter" />
               <span>@luna_vazq</span>
             </a>
           </li>
           <li>
-            <a href="https://drive.google.com/open?id=1H5pKNVbrQJGpM7hgjGNk_mi6P-Egg0be">
-              <span className="far fa-file-pdf"></span>
+            <a href="https://drive.google.com/open?id=1Exv8ZFlP4iqjin39T6KVapku8wnF4QQ2">
+              <span className="far fa-file-pdf" />
               <span>CV</span>
             </a>
           </li>
@@ -36,4 +36,4 @@ export default () => {
       </div>
     </div>
   );
-}
+};

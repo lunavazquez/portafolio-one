@@ -67,7 +67,7 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -123,5 +123,9 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "@iconify/icons-simple-icons": "^1.0.4",
+    "@iconify/react": "^1.1.1"
   }
 }
