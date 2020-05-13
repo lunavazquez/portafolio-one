@@ -1,27 +1,25 @@
-import React from "react";
-import "./projects.sass";
+import React from 'react';
+import './projects.sass';
 
 const projects = [
   {
     id: 0,
-    name: "dashboard",
-    link:
-      "https://lunavazquez.github.io/cdmx-2018-06-bc-core-am-data-dashboard/src/login.html",
-    repositorio:
-      "https://github.com/lunavazquez/cdmx-2018-06-bc-core-am-data-dashboard"
+    name: 'login',
+    link: 'https://lunavazquez.github.io/login-form-example/',
+    repositorio: 'https://github.com/lunavazquez/login-form-example/',
   },
   {
     id: 1,
-    name: "movies",
-    link: "https://lunavazquez.github.io/cdmx-api-movies/src/login.html",
-    repositorio: "https://github.com/lunavazquez/cdmx-api-movies"
+    name: 'movies',
+    link: 'https://lunavazquez.github.io/cdmx-api-movies/src/login.html',
+    repositorio: 'https://github.com/lunavazquez/cdmx-api-movies',
   },
   {
     id: 2,
-    name: "pokedex",
-    link: "https://lunavazquez.github.io/pokedex-react-redux/",
-    repositorio: "https://github.com/lunavazquez/pokedex-react-redux"
-  }
+    name: 'pokedex',
+    link: 'https://lunavazquez.github.io/pokemon/',
+    repositorio: 'https://github.com/lunavazquez/pokemon/',
+  },
 ];
 
 export default () => {
@@ -30,9 +28,9 @@ export default () => {
       <h1 className="section-title">Proyectos</h1>
       <div className="project-container">
         {projects.map(({ id, link, name }) => {
-          console.log(name + " project");
+          console.log(name + ' project');
           return (
-            <a key={id} href={link} className={name + " project"}>
+            <a key={id} href={link} className={name + ' project'}>
               {name}
             </a>
           );

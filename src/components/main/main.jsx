@@ -1,5 +1,5 @@
-import React from "react";
-import "./main.sass";
+import React from 'react';
+import './main.sass';
 
 export default () => {
   return (
@@ -27,7 +27,7 @@ export default () => {
             </a>
           </li>
           <li>
-            <a href="https://drive.google.com/open?id=1Exv8ZFlP4iqjin39T6KVapku8wnF4QQ2">
+            <a href="https://drive.google.com/open?id=1RELgRarfD8j9Y63AjCbDdeSabEaav9iz">
               <span className="far fa-file-pdf" />
               <span>CV</span>
             </a>
